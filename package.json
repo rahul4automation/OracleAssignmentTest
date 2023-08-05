@@ -1,0 +1,22 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "author name":"RAHUL KUMAR",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.5",
+    "@wdio/cli": "^8.14.4",
+    "@wdio/jasmine-framework": "^8.14.3",
+    "@wdio/local-runner": "^8.14.3",
+    "@wdio/spec-reporter": "^8.14.0",
+    "chromedriver": "^115.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "webdriverio": "^8.14.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
